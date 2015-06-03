@@ -10,7 +10,7 @@ if(projects.find().count() === 0) {
 		title: 'Freelance',
 		description: 'Buiten de HvA ben ik graag bezig met development. Ik doe geregeld freelance opdrachten voor het maken van websites. Vaak zijn deze websites gemaakt met Wordpress. Een voorbeeld van een freelance opdracht die ik deed was voor VidyMe. VidyMe is een webapplicatie waarmee je in de browser een filmpje opneemt waarin je jezelf presenteert. De webapplicatie was er al, de website van de dienst zelf bouwden een vriend en ik.',
 		img: 'vidyme.png',
-		link: 'www.vidyme.com',
+		link: 'http://www.vidyme.com',
 		git: ''
 
 	});
