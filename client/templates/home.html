@@ -1,0 +1,79 @@
+<template name="home">
+	<section class="intro">
+		Developer<br />UX Designer<br />All-round goodguy<br />Student CMD Amsterdam
+	</section>
+	<section class="experience">
+		<header>
+			<h2>Experience</h2>
+		</header>
+		<article>
+			{{#each projects}}
+				{{> project}}
+			{{/each}}
+		</article>
+	</section>
+	<section class="about">
+		<header>
+			<h2>Over</h2>
+		</header>
+		<article>
+			<section class="tile third bio">
+				<header>
+					<i class="fa fa-pencil fa-3x"></i>
+					<h3>Over mij</h3>
+				</header>
+				<article>
+					<p>
+						Hi! Tobias dus. Op het moment derdejaards student Communication and Multimedia Design in Amsterdam. (Front-end) Development is het voornaamste waar ik mij op concentreer. Test graag in mijn vrije tijd nieuwe ontwikkelingen op dat gebied. Interactie ontwerp komt op een goede tweede plek, vandaar de keuze voor de User Experience Design minor. Verder bezoek ik het lieft dagelijks een concert, speel ik graag basgitaar of toetsen en stap ik in de zomer graag op een windsurfplank. 
+					</p>
+				</article>
+			</section>
+			<section class="tile third photo">
+				<header>
+					<i class="fa fa-camera fa-3x"></i>
+				</header>
+				<img src="me.png" alt="Tobias Stikvoort"/>
+			</section>
+			<section class="tile third cv">
+				<header>
+					<i class="fa fa-list-alt fa-3x"></i>
+					<h3>Curriculum Vitae</h3>
+				</header>
+				<article>
+					<h4>Opleidingen</h4>
+					<ul>
+						<li><span class="date">'12-heden:</span> CMD - HvA, minor: User Experience Design</li>
+						<li><span class="date">'05-'12:</span> VWO - Ostrea Lyceum</li>
+					</ul>
+					<h4>Werkervaring</h4>
+					<ul>
+						<li><span class="date">'14-heden:</span> Developer - Wezz e-Commerce</li>
+						<li><span class="date">'13-heden:</span> Freelance developer</li>
+						<li><span class="date">'10-'15:</span> Klantenservice AH Middelburg</li>
+					</ul>
+				</article>
+			</section>
+		</article>
+	</section>
+	<section class="contact">
+		<header>
+			<h2>Contact</h2>
+		</header>
+		<section class="tile fourth contact">
+			<i class="fa fa-envelope fa-3x"></i>
+			<a href="mailto:mail@tobiasstikvoort.nl">mail</a>
+		</section>
+		<section class="tile fourth contact">
+			<i class="fa fa-twitter fa-3x"></i>
+			<a href="www.twitter.com/tstikvoort" target="blank">@tstikvoort</a>
+		</section>
+		<section class="tile fourth contact">
+			<i class="fa fa-linkedin fa-3x"></i>
+			<a href="nl.linkedin.com/in/tstikvoort" target="blank">LinkedIn</a>
+		</section>
+		<section class="tile fourth contact">
+			<i class="fa fa-github fa-3x"></i>
+			<a href="github.com/tstikvoort" target="blank">Github</a>
+		</section>
+	</section>
+</template>
