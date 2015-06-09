@@ -12,8 +12,8 @@ body { font-family: 'Source Code Pro'; background: #f6f6f0; color: #333; }
 
 /* header */
 body > header { padding: 10px 0; text-align: center; background: white; box-shadow: -3px -3px 3px 0 rgba(0,0,0,0.19) , 3px 0 3px 0 rgba(0,0,0,0.19) , 0 3px 3px 0 rgba(0,0,0,0.23); margin-bottom: 20px;}
-body > header .logo {width: 147px; height:147px; margin:0 auto;background: url('logo1.png'); transition: 0.3s background linear; border-radius: 75px; border: 3px solid #333;}
-body > header .logo:hover {background: url('photo1.png'); }
+body > header .logo {width: 147px; height:147px; margin:0 auto;background: url('//static.tobiasstikvoort.nl/logo1.png'); transition: 0.3s background linear; border-radius: 75px; border: 3px solid #333;}
+body > header .logo:hover {background: url('//static.tobiasstikvoort.nl/photo1.png'); }
 
 /* footer */
 body > footer { text-align: center; margin-bottom: 20px;}
