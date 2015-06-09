@@ -50,8 +50,9 @@ body > footer { text-align: center; margin-bottom: 20px;}
 .button { width: 100%; height: 30px; border-radius: 3px; background: #444; border-bottom: 3px solid #333; color: white !important; text-align: center; margin-top: 10px; display: block; line-height: 30px; text-decoration: none;}
 .button:active { border-bottom: 1px solic #333; margin-top: 12px;}
 /* flexbox */
-.flexbox .container { display: -moz-box; display: -webkit-flexbox; display: -ms-flexbox; display: -webkit-flex; display: -moz-flex; display: flex; -webkit-flex-direction: column; -moz-flex-direction: column; -ms-flex-direction: column; flex-direction: column;}
-.flexbox .container .tile { flex: 1; min-height: 0; }
+.flexbox .container { display: -moz-box; display: -webkit-flexbox; display: -ms-flexbox; display: -webkit-flex; display: -moz-flex; display: flex; -webkit-flex-direction: column; -moz-flex-direction: column; -ms-flex-direction: column; flex-direction: column; transition: 0.5s all linear;}
+.flexbox .container .tile { flex: 1; min-height: 0; transition:0.3s all linear;}
+.flexbox .container .tile.magic { flex:2;}
 .flexbox .container .about > article, .flexbox .container .experience > article, .flexbox .container .contact > article{ display: -moz-box; display: -webkit-flexbox; display: -ms-flexbox; display: -webkit-flex; display: -moz-flex; display: flex; -webkit-flex-direction: column; -moz-flex-direction: column; -ms-flex-direction: column; flex-direction: column;}
 
 @media (min-width: 500px) {
