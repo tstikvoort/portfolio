@@ -1,7 +1,7 @@
 if(projects.find().count() === 0) {
 	projects.insert({
 		title: 'HvA',
-		description: 'Tijdens mijn studie CMD focus ik mij voornamelijk op front-end development.Met het doen van de User Experience minor wil ik mij verbreden en verbeteren op voornamelijk interactie ontwerp gebied. Een voorbeeld van project wat we via de HvA deden was voor Q42 in het najaar van 2014. De vraag was om de medewerkers tussen de filialen meer bij elkaar te brengen. Wij deden onderzoek, bedachten een platform en bouwden het met Meteor.js.',
+		description: 'Tijdens mijn studie CMD focus ik mij voornamelijk op front-end development. Met het doen van de User Experience minor wil ik mij verbreden en verbeteren op voornamelijk interactie ontwerp gebied. Een voorbeeld van project wat we via de HvA deden was voor Q42 in het najaar van 2014. De vraag was om de medewerkers tussen de filialen meer bij elkaar te brengen. Wij deden onderzoek, bedachten een platform en bouwden het met Meteor.js.',
 		img: '//static.tobiasstikvoort.nl/qourant.png',
 		link: 'http://goldendot.meteor.com/',
 		git: 'https://github.com/tstikvoort/Qourant'
